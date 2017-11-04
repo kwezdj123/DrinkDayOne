@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FAF407201FAE057E0075E99B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4071F1FAE057E0075E99B /* AppDelegate.swift */; };
-		FAF407221FAE057E0075E99B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407211FAE057E0075E99B /* ViewController.swift */; };
-		FAF407251FAE057E0075E99B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF407231FAE057E0075E99B /* Main.storyboard */; };
 		FAF407281FAE057E0075E99B /* DrinkDayOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAF407261FAE057E0075E99B /* DrinkDayOne.xcdatamodeld */; };
 		FAF4072A1FAE057E0075E99B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF407291FAE057E0075E99B /* Assets.xcassets */; };
 		FAF4072D1FAE057E0075E99B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF4072B1FAE057E0075E99B /* LaunchScreen.storyboard */; };
 		FAF407381FAE057E0075E99B /* DrinkDayOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407371FAE057E0075E99B /* DrinkDayOneTests.swift */; };
 		FAF407431FAE057E0075E99B /* DrinkDayOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407421FAE057E0075E99B /* DrinkDayOneUITests.swift */; };
+		FAF407571FAE05E50075E99B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407521FAE05E50075E99B /* ViewController.swift */; };
+		FAF407581FAE05E50075E99B /* addAndminus_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407541FAE05E50075E99B /* addAndminus_Button.swift */; };
+		FAF407591FAE05E50075E99B /* BowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407551FAE05E50075E99B /* BowView.swift */; };
+		FAF4075A1FAE05E50075E99B /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF407561FAE05E50075E99B /* GraphView.swift */; };
+		FAF4075D1FAE063C0075E99B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF4075B1FAE063B0075E99B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,6 @@
 /* Begin PBXFileReference section */
 		FAF4071C1FAE057E0075E99B /* DrinkDayOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkDayOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF4071F1FAE057E0075E99B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF407211FAE057E0075E99B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAF407241FAE057E0075E99B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF407271FAE057E0075E99B /* DrinkDayOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrinkDayOne.xcdatamodel; sourceTree = "<group>"; };
 		FAF407291FAE057E0075E99B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF4072C1FAE057E0075E99B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		FAF4073E1FAE057E0075E99B /* DrinkDayOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkDayOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF407421FAE057E0075E99B /* DrinkDayOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDayOneUITests.swift; sourceTree = "<group>"; };
 		FAF407441FAE057E0075E99B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF407521FAE05E50075E99B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF407541FAE05E50075E99B /* addAndminus_Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addAndminus_Button.swift; sourceTree = "<group>"; };
+		FAF407551FAE05E50075E99B /* BowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowView.swift; sourceTree = "<group>"; };
+		FAF407561FAE05E50075E99B /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		FAF4075C1FAE063B0075E99B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,11 @@
 		FAF4071E1FAE057E0075E99B /* DrinkDayOne */ = {
 			isa = PBXGroup;
 			children = (
+				FAF407501FAE05E50075E99B /* CoreGraphics_study_lesson1 */,
 				FAF4071F1FAE057E0075E99B /* AppDelegate.swift */,
-				FAF407211FAE057E0075E99B /* ViewController.swift */,
-				FAF407231FAE057E0075E99B /* Main.storyboard */,
 				FAF407291FAE057E0075E99B /* Assets.xcassets */,
 				FAF4072B1FAE057E0075E99B /* LaunchScreen.storyboard */,
+				FAF4075B1FAE063B0075E99B /* Main.storyboard */,
 				FAF4072E1FAE057E0075E99B /* Info.plist */,
 				FAF407261FAE057E0075E99B /* DrinkDayOne.xcdatamodeld */,
 			);
@@ -126,6 +132,33 @@
 				FAF407441FAE057E0075E99B /* Info.plist */,
 			);
 			path = DrinkDayOneUITests;
+			sourceTree = "<group>";
+		};
+		FAF407501FAE05E50075E99B /* CoreGraphics_study_lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF407511FAE05E50075E99B /* Controller */,
+				FAF407531FAE05E50075E99B /* view */,
+			);
+			path = CoreGraphics_study_lesson1;
+			sourceTree = "<group>";
+		};
+		FAF407511FAE05E50075E99B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAF407521FAE05E50075E99B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAF407531FAE05E50075E99B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FAF407541FAE05E50075E99B /* addAndminus_Button.swift */,
+				FAF407551FAE05E50075E99B /* BowView.swift */,
+				FAF407561FAE05E50075E99B /* GraphView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF4075D1FAE063C0075E99B /* Main.storyboard in Resources */,
 				FAF4072D1FAE057E0075E99B /* LaunchScreen.storyboard in Resources */,
 				FAF4072A1FAE057E0075E99B /* Assets.xcassets in Resources */,
-				FAF407251FAE057E0075E99B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF407221FAE057E0075E99B /* ViewController.swift in Sources */,
 				FAF407201FAE057E0075E99B /* AppDelegate.swift in Sources */,
+				FAF4075A1FAE05E50075E99B /* GraphView.swift in Sources */,
+				FAF407581FAE05E50075E99B /* addAndminus_Button.swift in Sources */,
+				FAF407571FAE05E50075E99B /* ViewController.swift in Sources */,
 				FAF407281FAE057E0075E99B /* DrinkDayOne.xcdatamodeld in Sources */,
+				FAF407591FAE05E50075E99B /* BowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +336,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAF407231FAE057E0075E99B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF407241FAE057E0075E99B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAF4072B1FAE057E0075E99B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAF4072C1FAE057E0075E99B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF4075B1FAE063B0075E99B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF4075C1FAE063B0075E99B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,7 +470,7 @@
 				DEVELOPMENT_TEAM = ER8EZBS25Y;
 				INFOPLIST_FILE = DrinkDayOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jt.zx.DrinkDayOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jt.zx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +485,7 @@
 				DEVELOPMENT_TEAM = ER8EZBS25Y;
 				INFOPLIST_FILE = DrinkDayOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jt.zx.DrinkDayOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jt.zx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
